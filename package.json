@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "number-to-chinese-words": "^1.0.20",
     "vue": "^2.6.11"
   },
   "devDependencies": {
