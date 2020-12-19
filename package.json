@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
+    "core-js": "^3.8.1",
     "number-to-chinese-words": "^1.0.20",
     "vue": "^2.6.11"
   },
@@ -19,6 +19,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "less": "^4.0.0",
+    "less-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
